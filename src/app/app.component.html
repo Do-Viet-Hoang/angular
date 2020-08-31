@@ -1,0 +1,17 @@
+<!-- <h1>Chào bạn</h1>
+<h1>Tổng = {{tong}}</h1>
+<h1>{{xau}}</h1>
+<h1>{{tt}}</h1> -->
+<!-- <div class="container">
+    <h2 class="nt-5 mb-4">Demo</h2>
+    <app-test></app-test>
+</div> -->
+<div style="text-align:center">
+    <h1>
+        {{app}}
+    </h1>
+    <input type="text" [(ngModel)]="a">
+    <input type="text" [(ngModel)]="b">
+    <button class="btn btn danger" (click)="tinh()" [disabled]="a==null || b==null">Tính tổng</button>
+    <span>Tổng 2 số là {{t}}</span>
+</div>
